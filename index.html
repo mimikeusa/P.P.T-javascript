@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Piedra Papel o Tijera</title>
+    <style>
+        div {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-gradient-to-b from-emerald-300 to-indigo-900 text-5xl grid justify-center items-center font-mono  ">
+        <div class="h-screen">
+            <button onclick="resultado(0)"
+                class="mt-10 text-9xl transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-300 duration-100 ">✊</button>
+            <button onclick="resultado(1)"
+                class="mt-10 text-9xl transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-300 duration-100">✋</button>
+            <button onclick="resultado(2)"
+                class="mt-10 text-9xl transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-300 duration-100">✌</button>
+            <p id="resultado" class="mt-20 ">
+            <p id="emoji" class="mt-4"></p>
+        </div>
+    </div>
+</body>
+<script src="PPT.js"></script>
+
+</html>
